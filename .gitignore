@@ -1,0 +1,33 @@
+# Python-related
+__pycache__/
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Poetry
+.poetry/
+*.toml.lock
+
+# pytest coverage files
+.coverage
+.coverage.*
+*.coveragerc
+
+# mypy
+.mypy_cache/
+.dmypy.json
+
+# Pytest cache
+.pytest_cache/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# CI/CD
+*.log
+*.tmp
