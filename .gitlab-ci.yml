@@ -13,7 +13,7 @@ lint:
     - pre-commit run --all-files
   only:
     - merge_requests
-    - master
+    - main
     - develop
 
 test:
@@ -31,7 +31,7 @@ test:
     expire_in: 1 week
   only:
     - merge_requests
-    - master
+    - main
     - develop
 
 docker_build:
@@ -45,5 +45,5 @@ docker_build:
     - docker build -t python-devops-template .
     # - docker tag python-devops-template:latest your-registry/python-devops-template:latest
   only:
-    - master
+    - main
     - develop
