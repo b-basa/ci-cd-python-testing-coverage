@@ -62,13 +62,21 @@ docker run python-devops-template:latest python -m pytest -v ./tests
 docker run -it python-devops-template bash
 ```
 
-## GitLab CI/CD
-The repository is configured with a .gitlab-ci.yml file for GitLab CI/CD pipelines. It includes:
+## GitHub Actions
+The repository is configured with a ci.yml file for GitHub Actions. It includes:
 - Linting
 - Testing with coverage
 - Docker image build
 
 The pipeline is triggered automatically when pushing to the repository.
+
+## GitLab CI/CD
+The repository also has a .gitlab-ci.yml file for GitLab CI/CD pipelines. It includes:
+- Linting
+- Testing with coverage
+- Docker image build
+
+The pipeline would be triggered automatically if pushed to GitLab.
 
 ## Pre-commit Hooks
 This project uses pre-commit hooks for automatic linting and formatting. To install the hooks:
