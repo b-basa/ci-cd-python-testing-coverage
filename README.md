@@ -1,4 +1,5 @@
 # Python CI-CD
+See coverage: https://b-basa.gitlab.io/ci-cd-python-testing-coverage  
 
 Minimal Python project template with:
 

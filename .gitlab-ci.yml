@@ -24,7 +24,7 @@ test:
     - coverage run --source=app -m pytest -v tests
     - coverage report -m
     - coverage html
-    - mkdir pages
+    - mkdir public
     - cp -r htmlcov/* public/
   artifacts:
     paths:
