@@ -1,4 +1,4 @@
-# Python DevOps Template
+# Python CI-CD
 
 Minimal Python project template with:
 
